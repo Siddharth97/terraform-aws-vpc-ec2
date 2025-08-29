@@ -18,3 +18,17 @@ variable "private_subnet_suffix" {
   default = ["10/24","11/24","12/24"]
 }
 
+variable "instance_ami" {
+  type    = string
+  default = "ami-0c02fb55956c7d316"
+}
+
+variable "instance_type" {
+  type    = string
+  default = "t3.micro"
+}
+
+variable "key_name" {
+  type    = string
+  default = ""
+}
