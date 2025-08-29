@@ -9,4 +9,3 @@ module "vpc" {
   public_subnet_suffix = var.public_subnet_suffix
   private_subnet_suffix= var.private_subnet_suffix
 }
-

@@ -17,3 +17,4 @@ variable "private_subnet_suffix" {
   type    = list(string)
   default = ["10/24","11/24","12/24"]
 }
+
